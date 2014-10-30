@@ -139,6 +139,14 @@ class frontDataWriter{
         $text = $text.'</table>';
         return $text;
     }
+    function write_plain($SHOW_NAMES = FALSE){
+      $text = '';
+      foreach ($this->data as $name => $value){
+            $text.= $SHOW_NAMES? $name.":".$value : $value;
+            $text.="\n";
+        }
+     return $text;
+    }
 }
 /*
  * class dataTranslator
