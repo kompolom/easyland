@@ -132,9 +132,9 @@ class frontDataWriter{
         return $text;
     }
     function write_table(){
-        $text = '<table>';
+        $text = '<table  width=\'500\' cellspacing=\'0\' cellpadding=\'5\' border=\'1\' bordercolor=\'1\' style=\'border:solid 1px #000;border-collapse:collapse;\'>';
         foreach ($this->data as $name => $value){
-            $text=$text.'<tr><td>'.$name.' </td><td><b>'.$value.'</b></td></tr>';
+            $text=$text.'<tr><td  bgcolor=#efeeee style="background:#efeeee">'.$name.' </td><td><b>'.$value.'</b></td></tr>';
         }
         $text = $text.'</table>';
         return $text;
