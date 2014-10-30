@@ -2,6 +2,8 @@
 
 /*
  * получает и хранит данные введенные в форму
+ * @package Easyland
+ * @version 0.2
  */
 abstract class frontData{
   protected $fields =array();  
