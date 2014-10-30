@@ -1,0 +1,34 @@
+[
+  {
+    "type":"text",
+    "params":{}
+  },
+  {
+    "type":"text",
+    "name":"name",
+    "placeholder":"Ваше имя",
+    "label":"Ваше имя",
+    "size":"x",
+    "fieldname":"Имя"
+  },
+  {
+    "type":"separate",
+    "name":"phone",
+    "placeholder":"Ваш телефон",
+    "params":{"mask":"+7(999)999-99-99"},
+    "fieldname":"Телефон"
+  },
+  {
+    "type":"email",
+    "name":"email",
+    "placeholder":"Ваш Email",
+    "fieldname":"Email"
+  },
+  {
+    "type":"tel",
+    "name":"phone",
+    "placeholder":"Ваш телефон",
+    "params":{"mask":"+7(999)999-99-99"},
+    "fieldname":"Телефон"
+  }
+]

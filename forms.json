@@ -1,0 +1,29 @@
+{
+  "0":{
+    "formname":"Форма",
+    "name":"default",
+    "target":"order.php",
+    "async":true,
+    "method":"post",
+    "theme":"normal",
+    "size":"x",
+    "submit":"Оставить заявку",
+    "redirect":false,
+    "params":{"allowLock":true}
+  },
+  "1":{
+    "name":"callback",
+    "formname":"Обратный звонок",
+    "hidden":false,
+    "params":{"goal":"CALLBACK","answer":"respond"},
+    "submit":"Оставить заявку",
+    "fields":[1,2]
+  },
+  "2":{
+    "name":"consult",
+    "formname":"Консультация",
+    "hidden":false,
+    "params":{"goal":"CONSULT"},
+    "fields":[1,2]
+  }
+}
