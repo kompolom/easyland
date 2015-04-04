@@ -5,16 +5,16 @@
  * @version 0.3
  */
 $MY_EMAIL = array("test@kompolom.ru");//admin
-define(FROM, "test@kompolom.ru");
-define(SERVER, "ssl://smtp.yandex.ru");
-define(LOGIN,"test@kompolom.ru");
-define(PW,"");
-define(USE_SMTP,0);
-define(SMTP_PORT,465);
-define(SITENAME,'Easyland');
-define(SITE_URL,'');
-define(GEODB,'lib/SxGeoCity.dat');
-define(MSG_SUCCESS,'Мы свяжемся с вами в ближайшее время');
+define('FROM', "test@kompolom.ru");
+define('SERVER', "ssl://smtp.yandex.ru");
+define('LOGIN',"test@kompolom.ru");
+define('PW',"");
+define('USE_SMTP',0);
+define('SMTP_PORT',465);
+define('SITENAME','Easyland');
+define('SITE_URL','');
+define('GEODB','lib/SxGeoCity.dat');
+define('MSG_SUCCESS','Мы свяжемся с вами в ближайшее время');
 
 $formsrc = json_decode(file_get_contents('forms.json'), TRUE);
 $fieldsrc = json_decode(file_get_contents('fields.json'), TRUE);
